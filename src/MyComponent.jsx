@@ -4,7 +4,7 @@ function MyComponent() {
   const [quantity, setQuantity] = useState(1);
   const [comment, setComment] = useState("Comment");
   const [payment, setPayment] = useState("Visa");
-  const [shipping, setShipping] = useState("");
+  const [shipping, setShipping] = useState("Delivery");
 
   function handleNameChange(event) {
     setName(event.target.value);
